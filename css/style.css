@@ -5,34 +5,68 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 
-
+body{
+  margin: 0;
+}
 nav {
   display: flex;
   justify-content: start;
   align-items: center;
   font-family: 'Medula One', cursive;
   src: url('../fonts/MedulaOne-Regular.ttf') format('truetype');
+  background-color: #AF966D;
+  padding-left: 20px;
 }
 #Logo{
   height: 80px;
-  justify-content: start;
-  align-items: center;
+ 
 
 }
 
 h1 {
   margin:0px 20px;
-
+  font-size: 40px;
 }
 #menu{
   margin-left: 40px;
-  justify-content: space-between;
-  align-items: center;
-  background-color: aqua;
+  
   font-size: x-large;
   
 }
+#menu a {
+  text-decoration: none;
+  color: grey;
+  margin-left: 20px;
+}
+#menu a:hover{
+  color: black;
 
+}
+
+#home  {
+  background-color: red;
+  
+}
+
+#link {
+  width: 100%;
+  display: flex;
+
+}
+
+#entrer{
+  display: flex;
+  background-image: url("../img/zelda-bg_pattern_brown.png");
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#entrer h2 {
+ justify-content:center;
+ background-color: red;
+  
+}
 /*
 @font-face {
   font-family: 'Medula One', cursive;
@@ -162,7 +196,7 @@ Jaune : #ffc107
   position: relative;
   display: block;
   background-color: #AF966D;
-  margin: 17px auto 12px;
+  margin: 17px 0px 12px;
   max-width: 307px;
   height: 2px;
   opacity: 0;
