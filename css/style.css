@@ -110,7 +110,7 @@ h1 {
   justify-content: center;
   align-items: center;
   place-items: center;
-  margin-bottom:50px ;
+  margin-bottom: 50px;
 }
 
 #ouvre div {
@@ -138,12 +138,12 @@ h1 {
   text-align: center;
 }
 
-#linkM{
+#linkM {
   width: 60%;
 }
 
 .gridI {
-display: flex;
+  display: flex;
 
 }
 
@@ -161,11 +161,11 @@ display: flex;
 }
 
 #combat p {
-width: 57%;
+  width: 57%;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size:small;
+  font-size: small;
   margin-bottom: 40px;
 }
 
@@ -180,65 +180,111 @@ width: 57%;
 
 #prepare p {
   width: 57%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size:small;
-    margin-bottom: 40px;
-  }
-
- #mosaic{
   justify-content: center;
-  
-  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  text-align: center;
+  font-size: small;
+  margin-bottom: 40px;
+}
+
+#mosaic {
+  justify-content: center;
+
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(100px, auto);
   display: grid;
-  max-width: 960px;
+  max-width: 1100px;
   margin: 0 auto;
-  grid-gap: 10px;
-  
- }
- #mosaic div {
+  grid-gap: 5px;
+
+}
+
+#mosaic div {
   background-color: red;
-  padding: 30px;
-  
- }
 
- #mosaic div img {
-  width: 300px;
-  
- }
 
- .one{
-  grid-column: 1 ;
+}
+
+#mosaic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.one {
+  grid-column: 1;
   grid-row: 1 / 3;
-  
- }
 
- .two  {
+}
+
+.two {
   grid-column: 2 / 4;
   grid-row: 1;
- }
+}
 
- .three {
+.three {
   grid-column: 2;
   grid-row: 2;
- }
+}
 
- .four {
+.four {
   grid-column: 3;
   grid-row: 2;
- }
+}
 
- .five {
+.five {
   grid-column: 1;
-  grid-row: 3;  
- }
+  grid-row: 3;
+}
 
- .six {
+.six {
   grid-column: 2 / 4;
   grid-row: 3;
- }
+}
+#SiteOff:hover{
+  background-color: rgb(0, 187, 187);
+  
+}
+#SiteOff {
+
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background-color: #AF966D;
+  color: #ffc107;
+  font-family: 'Medula One', cursive;
+  src: url('../fonts/MedulaOne-Regular.ttf') format('truetype');
+  font-size: x-large;
+  border: none;
+  cursor: pointer;
+}
+#BA:hover{
+  background-color: rgb(0, 187, 187);
+  
+}
+#BA {
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background-color: #AF966D;
+  color: #ffc107;
+  font-family: 'Medula One', cursive;
+  src: url('../fonts/MedulaOne-Regular.ttf') format('truetype');
+  font-size: x-large;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+  
+}
+
 /*
 @font-face {
   font-family: 'Medula One', cursive;
@@ -325,9 +371,7 @@ Jaune : #ffc107
 
 
 
-/* BOUTONS */
 
-.btn {}
 
 
 
